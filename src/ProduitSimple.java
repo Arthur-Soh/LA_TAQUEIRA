@@ -12,6 +12,7 @@ public class ProduitSimple implements Article {
         this.description = description;
         this.prix = prix;
         this.categorie = categorie;
+        this;
     }
 
     @Override

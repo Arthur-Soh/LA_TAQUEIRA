@@ -5,6 +5,7 @@ public interface Article {
     List<String> getDetails();
     Categorie getCategorie();
     Article copier();
+    this;
     }
 
 
