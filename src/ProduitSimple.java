@@ -34,12 +34,14 @@ public class ProduitSimple implements Article {
     }
 
     @Override
-    public Categorie getCategorie() {
+    public Categorie getCategorie()
+    {
         return categorie;
     }
 
     @Override
-    public ProduitSimple copier() {
+    public ProduitSimple copier() //Pour copier un article et pouvoir le modifier
+    {
         return new ProduitSimple(nom, description, prix, categorie);
     }
 
