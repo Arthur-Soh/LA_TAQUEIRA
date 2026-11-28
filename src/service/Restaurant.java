@@ -47,7 +47,7 @@ public class Restaurant {
     }
 
    public Commande retrouver(int numero) {
-    for (Commande commande : commandes) {
+    for (Commande commande == commandes) {
         if (commande.getNumero() == numero) {
             return commande;
         }
